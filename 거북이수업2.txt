@@ -1,0 +1,97 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <title> document </title>
+    <style>
+      *{ margin :0; padding : 0;}
+        #main{
+            width: 100%;
+            height: 1000px;
+            border : 3px solid black;
+            position: relative;
+            
+        }
+       .엄{
+         width : 50%;
+         height : 100%;
+         border : 3px solid red;
+         position : absolute;
+          top : 0% ;
+          left: 0% ;
+          box-sizing : border-box ;
+
+       }
+       .준{
+         width : 50%;
+         height : 50%;
+         border : 3px solid  blueviolet;
+         position : absolute;
+          top : 0% ;
+          left: 50% ;
+          box-sizing : border-box ;
+       }
+       .식{
+         width : 50%;
+         height : 50%;
+         border : 3px solid palegreen;
+         position : absolute;
+          top : 50% ;
+          left: 50% ;
+          box-sizing : border-box ;
+       }
+   #뮤탈{
+      width: 200px ;
+      height: 200px ;
+      background-color: aqua;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%,-50%);
+      opacity: 0;
+      transition:all 1s;
+   }
+   
+    </style>
+   <script src="https://code.jquery.com/jquery-3.7.0.slim.js" integrity="sha256-7GO+jepT9gJe9LB4XFf8snVOjX3iYNb0FHYr5LI1N5c=" crossorigin="anonymous"></script>
+</head> 
+<body>
+
+    <div id="main">
+        
+        <div class="엄"> </div>
+        <div class="준"> </div>    
+        <div class="식"> </div>
+
+      <div id="뮤탈"> </div>
+
+    </div>
+
+    
+<button class="dota"> 눌러보세요 
+   
+</button>
+  
+
+<script> 
+   $(document).ready(function(){
+   var test = 0
+     $(".dota").click(function(){
+         test = test +1;
+         console.log(test);
+         if( test % 2 == 1){
+            $("#뮤탈").css("opacity","1");
+         }else{
+          $("#뮤탈").css("opacity","0");
+         }
+     });
+   
+   })
+
+</script>
+
+</body>
+
+
+
+
+</html>

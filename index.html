@@ -3,87 +3,29 @@
     <meta charset="utf-8">
     <title> document </title>
     <style>
-      *{ margin :0; padding : 0;}
-        #main{
-            width: 100%;
-            height: 1000px;
-            border : 3px solid black;
-            position: relative;
-            
+        #버튼{
+            margin-left: 45%;
+            margin-top: 20%;
+            width: 100px;
+            height: 25px;
+            background-color: aqua;
+            text-align: center;
+
         }
-       .엄{
-         width : 50%;
-         height : 100%;
-         border : 3px solid red;
-         position : absolute;
-          top : 0% ;
-          left: 0% ;
-          box-sizing : border-box ;
 
-       }
-       .준{
-         width : 50%;
-         height : 50%;
-         border : 3px solid  blueviolet;
-         position : absolute;
-          top : 0% ;
-          left: 50% ;
-          box-sizing : border-box ;
-       }
-       .식{
-         width : 50%;
-         height : 50%;
-         border : 3px solid palegreen;
-         position : absolute;
-          top : 50% ;
-          left: 50% ;
-          box-sizing : border-box ;
-       }
-   #뮤탈{
-      width: 200px ;
-      height: 200px ;
-      background-color: aqua;
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%,-50%);
-      opacity: 0;
+      
 
-   }
-   
     </style>
-   <script src="https://code.jquery.com/jquery-3.7.0.slim.js" integrity="sha256-7GO+jepT9gJe9LB4XFf8snVOjX3iYNb0FHYr5LI1N5c=" crossorigin="anonymous"></script>
-</head> 
+
+</head>
 <body>
-
-    <div id="main">
-        
-        <div class="엄"> </div>
-        <div class="준"> </div>    
-        <div class="식"> </div>
-
-      <div id="뮤탈"> </div>
-
-    </div>
-
-    
-<button class="버튼"> 눌러보세요 
+ 
+   <div id="버튼">
+    <a href="https://cdn.discordapp.com/attachments/789077360229220385/1126873951340073023/ffxiv_20230707_225331_307.png"
+   target="_blank"><b>눌러보세요</b></a>
+   </div>
    
-</button>
-
-
-<script> 
-   document.ready(function(){
-   var test = 0
-     $(".버튼").click(function(){
-         test = test +1;
-         console.log(test);
-         alert("좀 되라");
-     });
    
-   })
-
-</script>
 
 </body>
 
