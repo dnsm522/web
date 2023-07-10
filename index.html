@@ -16,6 +16,7 @@
                 height: 150px;
                 border: 1px solid black;
                 margin: 0 auto;  
+                text-align: center;
                 
             }
             #배너{
@@ -42,6 +43,28 @@
                 border: 1px solid black;
                 margin-bottom: 0;
             }
+         .lLink{
+            position:absolute;
+            top: -0.3%;
+            left: -2%;
+         }   
+         .lLink>li {
+            list-style : none;    
+            display : inline-block;
+            margin: 0 5px;
+            
+         }
+         .rLink{
+            position:absolute;
+            top: -0.3%;
+            right: 1%;
+         }   
+         .rLink>li {
+            list-style : none;    
+            display : inline-block;
+            margin: 0 5px;
+            
+         }
 
 
         </style>
@@ -49,10 +72,26 @@
     <body>
      <div id="테두리">
         
-        <div id="헤더"></div> 
-        <div id="배너"></div> 
-        <div id="배너2"></div>
-        <div id="콘텐츠"></div>  
+        <div id="헤더">
+            <img id="로고" src="logo.png">
+            <ul class="lLink">
+               <li><a href="#">림사로민사</a></li>
+               <li><a href="#">울다하</a></li>
+               <li><a href="#">그리다니아</a></li>
+            </ul>
+            <ul class="rLink">              
+                  <li><a href="#">설문조사</a></li>
+                  <li><a href="#">중붕력평가</a></li>
+                  <li><a href="#">파딱시험응시</a></li>             
+            </ul>
+
+            <ul class="mainmenu"></ul>
+            
+
+        </div> 
+        <div id="배너"></div>
+        <div id="콘텐츠"></div>
+        <div id="배너2"></div>  
         <div id="푸터"></div> 
 
     </div> 
