@@ -55,7 +55,7 @@
             
          }
          .rLink{
-            position:absolute;
+            position:absolute; 
             top: -0.3%;
             right: 1%;
          }   
@@ -63,9 +63,48 @@
             list-style : none;    
             display : inline-block;
             margin: 0 5px;
-            
          }
-
+         #로고{
+            text-align: center;
+         }
+         .mainmenu>li{
+            
+            display : inline-block;
+            list-style : none;      
+            margin: 0 10px;
+         }
+         #학원소개{
+            position: absolute;
+            top: 120 ;
+            left:8;
+            font-size: 20px;
+         }
+         #콘텐츠이미지{
+            margin-left: 30;
+         }
+         #콘텐츠이미지>li{
+            display : inline-block;
+            list-style : none;      
+            margin: 80 30;
+         }
+         #콘텐츠t{
+            position: absolute;
+            top:710px;
+            left: 8;
+            font-size: 20px;
+         }
+         #콘>li{
+            position: absolute;
+            list-style : none;  
+            font-size: 24;
+            top:1020px;
+            right:1020;
+            text-align: center;
+         }
+         #콘내용{
+            font-size: 14;
+         }
+        
 
         </style>
     </head>
@@ -85,15 +124,43 @@
                   <li><a href="#">파딱시험응시</a></li>             
             </ul>
 
-            <ul class="mainmenu"></ul>
-            
+            <ul class="mainmenu">
+                <li><a href="#">중망호소개</a></li>
+                  <li><a href="#">새싹모집</a></li>
+                  <li><a href="#">부대신청</a></li>
+                  <li><a href="#">출항과정안내</a></li>
+                  <li><a href="#">사장팟취업정보</a></li>
+                  <li><a href="#">커뮤니티</a></li>              
+            </ul>
+                 
 
         </div> 
-        <div id="배너"></div>
-        <div id="콘텐츠"></div>
-        <div id="배너2"></div>  
+        <div id="배너">
+            <img id="배너이미지" src="banner.png">
+            <b id="학원소개">학원소개</b>
+        </div>            
+        <div id="콘텐츠">
+            <b id="콘텐츠t">현재모집중인과정</b>
+            <ul id="콘">
+                <li id="콘1"><span>약/음식 제작 전문가</span> <h1 id="콘내용">웹표준의 이해를 바탕으로 웹호환성 및 접근성을<br>준수하는 웹사이트 제작이 가능하며<br>Javascript/jQuery를 활용하여<br>웹이벤트 및 애니메이션을 제작할 수 있다.</h1></li>
+                <li id="콘2"><b></b></li>
+                <li id="콘3"><b></b></li>
+                <li id="콘4"><b></b></li>
+
+            </ul>
+            <ul id="콘텐츠이미지">
+            <li> <img id="cur1" src="cur1.jpg"></li>
+            <li> <img id="cur2" src="cur2.jpg"></li>
+            <li> <img id="cur3" src="cur3.jpg"></li>
+            <li> <img id="cur4" src="cur4.jpg"></li>
+            </div>
+
+
+            <div id="배너2"></div>  
         <div id="푸터"></div> 
 
+        </div>
+        
     </div> 
 
     </body>
