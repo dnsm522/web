@@ -50,10 +50,8 @@
             align-items: center;
             align-content: center;
             flex-wrap: wrap;
-            border: 1px solid red;
          }
          .창천1,.창천2,.창천3{
-            border:1px solid blue;
             width: 50vw; 
             width: 100%;
             font-size: 30;        
