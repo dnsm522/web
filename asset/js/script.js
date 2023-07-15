@@ -10,10 +10,11 @@ $(document).ready(function(){
                 $(".신생1").addClass("ani");
                 
                 setTimeout(function(){
-                    (".신생2").addClass("ani");
+                    $(".신생2").addClass("ani");
                 },1000);
             }
         
     })
 
 });
+오키도키
