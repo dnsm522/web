@@ -1,6 +1,7 @@
 $(document).ready(function(){  
 
     var 신생높이 =  $("#신생").outerHeight();
+    var 창천높이 = 신생높이 + $("#창천").outerHeight();
     console.log(신생높이);
         // 신생높이 = 1637
     $(window).scroll(function(){
@@ -13,8 +14,22 @@ $(document).ready(function(){
                     $(".신생2").addClass("ani");
                 },1000);
             }
-        
-    })
+            if(창천높이 -400 <= scrollheight){
+                $(".창천1").addClass("ani");
+
+                setTimeout(function(){
+                    $(".창천2").addClass("ani");
+                },1000);
+
+                setTimeout(function(){
+                    $(".창천3").addClass("ani");
+                },1000);
+            }
+            
+
+
+    })악
+   
 
 });
-오키도키
+
