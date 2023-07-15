@@ -51,12 +51,6 @@
             align-content: center;
             flex-wrap: wrap;
          }
-         .창천1,.창천2,.창천3{
-            width: 50vw; 
-            width: 100%;
-            font-size: 30;        
-         }
-
 
          #홍련{
             text-align:center;
@@ -76,13 +70,7 @@
             flex-wrap: wrap;
             border: 1px solid red;
          }
-         .홍련1,.홍련2{
-            order:1px solid blue;
-            width: 50vw; 
-            width: 100%;
-            font-size: 30;
-           
-         }
+
          .ani{
             opacity: 1;
             margin-left: 0;
