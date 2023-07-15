@@ -8,7 +8,10 @@ $(document).ready(function(){
             console.log(scrollheight);
             if(신생높이 -400 <= scrollheight){
                 $(".신생1").addClass("ani");
-                $(".신생2").delay(1000).addClass("ani");
+                
+                setTimeout(function(){
+                    (".신생2").addClass("ani");
+                },1000);
             }
         
     })

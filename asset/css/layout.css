@@ -25,12 +25,11 @@
          }
          .신생1,.신생2{
           
-            width: 50vw; 
             width: 100%;
-            font-size: 30;
+            font-size: 30px;
             opacity: 0;
-            margin-left: -50px;
-            transition: all 1s;
+            margin-left: -70px;
+            transition: all 2s;
          }
          .신생2{
             margin: 30px;
