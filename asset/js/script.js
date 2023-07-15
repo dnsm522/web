@@ -6,9 +6,9 @@ $(document).ready(function(){
     $(window).scroll(function(){
         var scrollheight = $(window).scrollTop()
             console.log(scrollheight);
-            if(신생높이 -200 <= scrollheight){
-                $("#신생1").addClass("ani");
-                $("#신생2").delay(1000).addClass("ani");
+            if(신생높이 -400 <= scrollheight){
+                $(".신생1").addClass("ani");
+                $(".신생2").delay(1000).addClass("ani");
             }
         
     })
