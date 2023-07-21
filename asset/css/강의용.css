@@ -1,0 +1,136 @@
+
+.main-background {
+    width: 100%;
+    height: 500px;
+    background-image: url(/shoes.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;   
+    background-position: center;
+    padding: 1px;
+    position: relative;
+}
+.main-title {
+    color: white;
+    font-size: 40px;
+    margin-top: 300px;
+    margin-left: 5px;
+    
+}
+.text li {
+    font-size: 24px;
+    color: white;
+    list-style: none;
+}
+.text {
+    margin-left: -30px;
+    margin-top: -30px ;
+    display: inline-block;
+}
+.button {
+    margin-left: 20px;
+    padding: 10PX;
+    font-size: 16px;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    position: relative;
+    left: 50;
+    bottom: 30;
+}
+.box {
+    width: 500px;
+    height: 200px;
+    background: #eee;
+    position: absolute;
+    bottom: -150px;
+    right: 100px;
+    border-radius: 10px;
+
+}
+.box a {
+    position: absolute;
+    width: 500px;
+    text-align: center;
+    top: 50px;
+}
+.input-body {
+    width: 600px;
+    height: 700px;
+    background-color: gray;
+    margin: 50px;
+}
+.input-header {
+    font-size: 38px;
+    position: relative;
+    left: 45px;
+    top: 30px;
+}
+.input-email {
+    width: 80%;
+    height: 70px;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+input[type=email] {
+    margin-top: 10px;
+    margin-left: -5px;
+    padding: 10px;
+    font-size: 18px;
+    width: 500px;
+}
+.input-name {
+    width: 600px;
+    height: 70px;
+    margin-top: 50px;
+    
+}
+input[type=text]  {
+    width: 225px;   
+    font-size: 18px;
+    padding: 10;
+    margin-left: -5px;
+    margin-top: 10px;
+}  
+.first-name,.last-name {
+    float: left;
+    margin-left: 50px;
+}
+
+.message {
+    clear: both;
+    width: 80%;
+    height: 250px;
+    margin-left: 50px;
+    margin-top: 35px;
+}   
+
+input[type=message] {
+    width: 500px;
+    height: 250px;
+    margin-left: -5px;
+    margin-top: 10px ;
+    font-size: 15px;
+}
+.input-footer {
+    width: 550px;
+    height: 70px;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+input[type=checkbox] {
+    margin-left: 25px;
+}
+.submit {
+    width:120px;
+    height: 50px;
+    float: right;
+    margin-right: 25px;
+    background-color: orange;
+    color: white;
+    border:none;
+    border-radius: 5px;
+    font-size: 18px;
+}
+#엥 {
+    margin-top: 20px;
+}
