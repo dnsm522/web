@@ -6,7 +6,45 @@
     
 }
 .zemok {
+    display: inline-block;
     color: steelblue;
-    font-size: 26; 
-    margin-top: 100px;
+    font-size: 30px; 
+    margin: 30px 50px;
+}
+.td-head{
+    text-align: center;
+}
+.amount ,.total {
+    text-align: right;
+}
+.footer {
+    width: 650px;
+    height: 100px;
+    margin-left: 50px;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+.send {
+    padding:15px;
+    position: relative;
+    left: 445px;
+    bottom: 20px; 
+    border-radius: 5px;
+    background-color: darkblue;
+    border: none;
+    font-size: 16px;
+}
+table td {
+    border-bottom: 1px skyblue;
+    padding: 10px;
+}
+table {
+    border-collapse: collapse;
+    width: 650px;
+    height: 250px;
+    background: white;
+    margin-left: 50px;
+    border-radius: 15px;
+
 }
